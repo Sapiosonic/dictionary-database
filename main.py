@@ -16,4 +16,15 @@ def enter_password():
        print("Access Granted!")
        data_base()
 
+def data_base():
+  x = int(input("1) Clear\n2) Update\n3) Print\n"))
+  if x == 1:
+    people.clear()
+    print(people)
+    print("Database Cleared")
+  elif x == 2:
+    updated_dictionary()
+  elif x == 3:
+    print(people)
+
 

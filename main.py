@@ -27,4 +27,11 @@ def data_base():
   elif x == 3:
     print(people)
 
+def update_dictionary():
+   for i in range(3):
+      name = input("Enter name: ")
+      job = input("Enter job: ")
+      people[name] = job
+      print(people)
 
+intro()
